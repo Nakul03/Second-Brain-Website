@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.contentModel = exports.LinkModel = exports.userModel = void 0;
 const mongoose_1 = __importStar(require("mongoose"));
-mongoose_1.default.connect("mongodb+srv://nakulpise831:nakul1381@cluster0.h4om8.mongodb.net/Second_Brain");
+mongoose_1.default.connect("");
 const userSchema = new mongoose_1.Schema({
     username: { type: String, unique: true },
     password: String,
